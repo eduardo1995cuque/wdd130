@@ -1,0 +1,71 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif; /* Specify a fallback font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Navigation styles */
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(173, 134, 134);
+    display: block;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    color: steelblue;
+}
+
+/* Image styles */
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+/* Paragraph styles */
+p {
+    padding: 10px;
+}
+
+/* Main content styles */
+main {
+    max-width: 840px;
+    width: 80%; 
+}
+
+/* Additional paragraph styles */
+main p {
+    padding: 0; /* Apply padding only to paragraphs within main */
+}
+
+/* Aside styles */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee; /* Use color code directly */
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px; 
+    height: auto; 
+}
+
+/* Footer styles */
+footer {
+    margin-top: 15px; 
+    border-top: 1px solid #000; 
+    text-align: center; 
+}
