@@ -2,16 +2,16 @@
 
 :root {
   --primary-color: #396e94;
-  --secondary-color: #e7c24f;
-  --accent1-color: #a43312;
-  --accent2-color: #381d2a;
+  --secondary-color: #171616;
+  --accent1-color: #171616;
+  --accent2-color: #171616;
 
   --heading-font: 'Roboto', sans-serif;
   --paragraph-font: 'Roboto', sans-serif;
 
-  --nav-background-color: #aabd8c;
-  --nav-link-color: #ffffff;
-  --nav-hover-link-color: #ffffff;
+  --nav-background-color: #171616;
+  --nav-link-color: #171616;
+  --nav-hover-link-color: #171616;
   --nav-hover-background-color: #396e94;
 }
 
