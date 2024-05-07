@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --primary-color: #03090d;
+  --primary-color: #396e94;
   --secondary-color: #e7c24f;
   --accent1-color: #a43312;
   --accent2-color: #381d2a;
@@ -9,9 +9,9 @@
   --heading-font: 'Roboto', sans-serif;
   --paragraph-font: 'Roboto', sans-serif;
 
-  --nav-background-color: #aabd8c;
-  --nav-link-color: #ffffff;
-  --nav-hover-link-color: #ffffff;
+  --nav-background-color: #1e201c;
+  --nav-link-color: #1e201c;
+  --nav-hover-link-color: #1e201c;
   --nav-hover-background-color: #396e94;
 }
 
