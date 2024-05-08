@@ -6,13 +6,13 @@
   --accent1-color: #003566;
   --accent2-color: #ffc300;
 
-  --heading-font: 'Roboto', sans-serif;
-  --paragraph-font: 'Roboto', sans-serif;
+  --heading-font: 'sedan-SC', sans-serif;
+  --paragraph-font: 'Sedan-SC', sans-serif;
 
-  --nav-background-color: #aabd8c;
-  --nav-link-color: #ffffff;
-  --nav-hover-link-color: #ffffff;
-  --nav-hover-background-color: #396e94;
+  --nav-background-color: #000814;
+  --nav-link-color: #001d3d;
+  --nav-hover-link-color: #003566;
+  --nav-hover-background-color: #ffc300;
 }
 
 body {
