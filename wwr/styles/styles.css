@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var'sedan-SC', sans-serif;
+  font-family:'sedan-SC', sans-serif;
   color: #000814;
 }
 
@@ -55,6 +55,6 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover {
-  color: var#003566;
+  color: #003566;
   background-color: #ffc300;
 }
