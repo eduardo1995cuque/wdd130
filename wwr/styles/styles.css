@@ -18,19 +18,19 @@
 }
 
 body {
-  font-family: var('Sedan-SC', sans-serif);
+  font-family: 'Sedan-SC', sans-serif;
   max-width: 960px;
   padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var('sedan-SC', sans-serif);
-  color: var(#000814);
+  font-family: var'sedan-SC', sans-serif;
+  color: #000814;
 }
 
 header {
   padding: 20px;
-  background-color: var(#003566);
+  background-color: #003566;
 }
 
 p {
@@ -38,23 +38,23 @@ p {
 }
 
 nav {
-  background-color: var(#ffc300);
+  background-color: #ffc300;
   font-size: 1.2rem;
   display: flex;
 }
 
 nav a {
   display: block;
-  color: var(#001d3d);
+  color: #001d3d;
   text-decoration: none;
   padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-  color: var(#001d3d);
+  color: #001d3d;
 }
 
 nav a:hover {
-  color: var(#003566);
-  background-color: var(-#ffc300);
+  color: var#003566;
+  background-color: #ffc300;
 }
