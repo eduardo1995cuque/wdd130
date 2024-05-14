@@ -57,14 +57,14 @@ aside {
 }
 
 aside img {
-    width: 150px; 
+    width: 200px; 
     height: auto; 
 }
 
 aside h2{
     position: absolute;
     top: 37px;
-    left: 150px;
+    left: 200px;
 }
 
 /* Footer styles */
