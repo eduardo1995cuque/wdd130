@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Sedan+SC&display=swap');
+:root {
+    primary-color: #000814 ;
+  --secondary-color: #001d3d;
+    --text-color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: (#000814); 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold; 
+}
+
+p {
+    color: (#000000); 
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+.social-media a {
+    text-decoration: none; 
+}
+
+.hero img {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+
+}
+
+.hero h1 {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 3em; 
+    text-align: center; 
+}
+
+.hero article {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px; 
+}
+
+.hero article img {
+    float: right; 
+    margin-left: 20px; 
+}
