@@ -1,14 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Sedan+SC&display=swap');
 
-
 :root {
-  --primary-color: #000814 ;
+  --primary-color: #000814;
   --secondary-color: #001d3d;
   --accent1-color: #003566;
   --accent2-color: #ffc300;
 
-  --heading-font: 'sedan-SC', sans-serif;
+  --heading-font: 'Sedan-SC', sans-serif;
   --paragraph-font: 'Sedan-SC', sans-serif;
 
   --nav-background-color: #000814;
@@ -30,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   padding: 20px;
-  background-color: #003566;
+  background-color: var(--accent1-color);
 }
 
 p {
