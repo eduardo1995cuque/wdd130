@@ -1,28 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Sedan+SC&display=swap');
 
+
 :root {
-  --primary-color: #000814;
+  --primary-color: #000814 ;
   --secondary-color: #001d3d;
   --accent1-color: #003566;
   --accent2-color: #ffc300;
 
-  --heading-font: 'Sedan-SC', sans-serif;
+  --heading-font: 'sedan-SC', sans-serif;
   --paragraph-font: 'Sedan-SC', sans-serif;
 
-  --nav-background-color: #ffc300;
+  --nav-background-color: #000814;
   --nav-link-color: #001d3d;
   --nav-hover-link-color: #003566;
-  --nav-hover-background-color: #000814;
+  --nav-hover-background-color: #ffc300;
 }
 
 body {
-  font-family: (--'Sedan-SC', sans-serif);
+  font-family: 'Sedan-SC', sans-serif;
   max-width: 960px;
   padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: (--'Sedan-SC', sans-serif);
+  font-family: 'sedan-SC', sans-serif;
   color: #000814;
 }
 
@@ -54,5 +55,5 @@ nav a:link, nav a:visited {
 
 nav a:hover {
   color: #003566;
-  background-color: #000814;
+  background-color: #ffc300;
 }
