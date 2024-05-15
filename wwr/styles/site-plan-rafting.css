@@ -9,21 +9,21 @@
   --heading-font: 'Sedan-SC', sans-serif;
   --paragraph-font: 'Sedan-SC', sans-serif;
 
-  --nav-background-color: #000814;
+  --nav-background-color: #ffc300;
   --nav-link-color: #001d3d;
   --nav-hover-link-color: #003566;
-  --nav-hover-background-color: #ffc300;
+  --nav-hover-background-color: #000814;
 }
 
 body {
-  font-family: 'Sedan-SC', sans-serif;
+  font-family: var(--paragraph-font);
   max-width: 960px;
   padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'sedan-SC', sans-serif;
-  color: #000814;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
 }
 
 header {
@@ -36,23 +36,23 @@ p {
 }
 
 nav {
-  background-color: #ffc300;
+  background-color: var(--nav-background-color);
   font-size: 1.2rem;
   display: flex;
 }
 
 nav a {
   display: block;
-  color: #001d3d;
+  color: var(--nav-link-color);
   text-decoration: none;
   padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-  color: #001d3d;
+  color: var(--nav-link-color);
 }
 
 nav a:hover {
-  color: #003566;
-  background-color: #ffc300;
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
 }
