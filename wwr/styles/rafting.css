@@ -1,21 +1,23 @@
+/* rafting.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Sedan+SC&display=swap');
+
 :root {
-    --primary-color: #02183a ;
-  --secondary-color: #001d3d;
+    --primary-color: #02183a;
+    --secondary-color: #001d3d;
     --text-color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: (#000814); 
-    font-family: 'Roboto', sans-serif; 
+    color: var(--#02183a); 
+    font-family: 'Reddit Sans', sans-serif; 
     font-weight: bold; 
 }
 
 p {
-    color: (#000000); 
-    font-family: 'Roboto', sans-serif; 
+    color: var(--#02183a); 
+    font-family: 'Reddit Sans', sans-serif; 
 }
-
 
 .social-media a {
     text-decoration: none; 
@@ -25,7 +27,6 @@ p {
     display: block; 
     width: 100%; 
     height: auto; 
-
 }
 
 .hero h1 {
@@ -34,7 +35,7 @@ p {
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: #fff; 
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Reddit Sans', sans-serif; 
     font-size: 3em; 
     text-align: center; 
 }
