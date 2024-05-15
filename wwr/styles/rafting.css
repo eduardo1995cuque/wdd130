@@ -8,14 +8,14 @@
     --text-color: #000000;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     color: var(--#02183a); 
     font-family: 'Reddit Sans', sans-serif; 
     font-weight: bold; 
 }
 
 p {
-    color: var(--#02183a); 
+    color: #02183a; 
     font-family: 'Reddit Sans', sans-serif; 
 }
 
@@ -23,33 +23,44 @@ p {
     text-decoration: none; 
 }
 
+/* rafting.css */
+
+/* Position the hero container relatively */
+.hero {
+    position: relative;
+}
+
+/* Style the hero image */
 .hero img {
-    display: block; 
-    width: 100%; 
-    height: auto; 
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
+/* Position the h1 heading absolutely */
 .hero h1 {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    color: #fff; 
-    font-family: 'Reddit Sans', sans-serif; 
-    font-size: 3em; 
-    text-align: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Example color */
+    font-family: 'Reddit Sans', sans-serif; /* Updated font family */
+    font-size: 3em;
+    text-align: center;
 }
 
+/* Position the article absolutely */
 .hero article {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: rgba(0, 0, 0, 0.7); 
-    padding: 20px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
 }
 
+/* Style the img inside the article */
 .hero article img {
-    float: right; 
-    margin-left: 20px; 
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Add margin for spacing */
 }
