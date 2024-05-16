@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Sedan+SC&display=swap');
+
+
+:root {
+  --primary-color: #000814 ;
+  --secondary-color: #001d3d;
+  --accent1-color: #003566;
+  --accent2-color: #ffc300;
+
+  --heading-font: 'sedan-SC', sans-serif;
+  --paragraph-font: 'Sedan-SC', sans-serif;
+
+  --nav-background-color: #041e44;
+  --nav-link-color: #074588;
+  --nav-hover-link-color: #147bdc;
+  --nav-hover-background-color: #fbcb2f;
+}
+
+body {
+  font-family: 'Sedan-SC', sans-serif;
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'sedan-SC', sans-serif;
+  --primary-color: #000814 ;
+}
+
+header {
+  padding: 20px;
+  --nav-background-color: rgb(#041e44);
+}
+
+p {
+  padding: 25px;
+}
+
+nav {
+  background-color: rgb(107, 158, 200);
+  padding: 10px;
+  --nav-hover-background-color: rgb(251, 203, 47); /* Added RGB */
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  --secondary-color: rgb(0, 29, 61); /* Added RGB */
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  --secondary-color: rgb(0, 29, 61); /* Added RGB */
+}
+
+nav a:hover {
+  --accent1-color: rgb(0, 53, 102); /* Added RGB */
+  --accent2-color: rgb(255, 195, 0); /* Added RGB */
+}
