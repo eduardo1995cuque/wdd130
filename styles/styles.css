@@ -22,7 +22,7 @@ h1 {
     color: steelblue;
 }
 
-/* Main Image  */
+/* Main Image */
 img {
     width: 150px;
     height: auto;
@@ -30,7 +30,7 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin:0 0 1rem 1rem;
+    margin: 0 0 1rem 1rem;
 }
 
 /* Paragraph styles */
@@ -58,6 +58,7 @@ aside {
     background-color: #eee; 
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -65,20 +66,30 @@ aside img {
     height: auto; 
 }
 
+
+aside h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white; 
+}
+
 /* Footer styles */
 footer {
     margin-top: 15px; 
     border-top: 1px solid #000; 
     text-align: center; 
-    padding: 20px; /* Added padding */
-    background-color: #f5f5f5; /* Added background color */
-    color: #333; /* Added text color */
+    padding: 20px; 
+    background-color: #f5f5f5; 
+    color: #333; 
 }
 
 /* Class Selector */
 .box {
     margin: 1rem; 
-    border: 1px solid rgba(0,0,0,0.1); 
+    border: 1px solid rgba(0, 0, 0, 0.1); 
     padding: 1rem;
     background-color: #eee; 
     color: #000; 
