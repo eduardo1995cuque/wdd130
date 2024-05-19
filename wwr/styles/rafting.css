@@ -43,8 +43,8 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff; /* Example color */
-    font-family: 'Reddit Sans', sans-serif; /* Updated font family */
+    color: #fff; 
+    font-family: 'Reddit Sans', sans-serif; 
     font-size: 3em;
     text-align: center;
 }
@@ -61,6 +61,6 @@ p {
 
 /* Style the img inside the article */
 .hero article img {
-    float: right; /* Float the image to the right */
+    float: right; 
     margin-left: 20px; 
 }
