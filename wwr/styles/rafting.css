@@ -2,20 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Sedan+SC&display=swap');
 
-:root {
-    --primary-color: #02183a;
-    --secondary-color: #001d3d;
-    --text-color: #000000;
+:root :root {
+    --primary-color: rgb(2, 24, 58);
+    --secondary-color: rgb(0, 29, 61);
+    --text-color: rgb(0, 0, 0);
 }
 
 h1, h2 {
-    color: var(--#02183a); 
+    color:rgb(2, 24, 58); 
     font-family: 'Reddit Sans', sans-serif; 
     font-weight: bold; 
 }
 
 p {
-    color: #02183a; 
+    color: rgb(2, 24, 58); 
     font-family: 'Reddit Sans', sans-serif; 
 }
 
@@ -61,6 +61,6 @@ p {
 
 /* Style the img inside the article */
 .hero article img {
-    float: right; 
+    float: right; /* Float the image to the right */
     margin-left: 20px; 
 }
